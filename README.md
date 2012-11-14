@@ -2,14 +2,6 @@
 
 This library is for use with [Braintree's payment gateway](http://braintreepayments.com/) in concert with one of [the supported client libraries](http://braintreepayments.com/docs).  It encrypts sensitive payment information in a web browser using the public key of an asymmetric key pair.
 
-## NOTICE: This Project is in Beta
-
-While Client-Side Encryption is currently in use in production environments, you should be aware of the following if you are interested in using this technology during the beta period.
-
-* This library is not yet a drop-in solution, so implementation will be more technically complicated than just using a Braintree client library.
-* The public API of the library may change across releases.  We use [semantic versioning](http://semver.org/) to make it obvious when this happens.
-* We may require you to upgrade to a new version of the library as we develop this technology.  (We'll contact you if this is the case; we won't deprecate an in-use version out from under you.)
-
 ## Getting Started
 
 Here's a quick example.  First, include this library using a script tag:
